@@ -72,7 +72,7 @@ class MUSE(BaseClassifier):
     feature_selection: {"chi2", "none", "random"}, default: chi2
         Sets the feature selections strategy to be used. Chi2 reduces the number
         of words significantly and is thus much faster (preferred). Random also reduces
-        the number significantly. None applies not feature selectiona and yields large
+        the number significantly. None applies not feature selection and yields large
         bag of words, e.g. much memory may be needed.
     n_jobs : int, default=1
         The number of jobs to run in parallel for both ``fit`` and ``predict``.

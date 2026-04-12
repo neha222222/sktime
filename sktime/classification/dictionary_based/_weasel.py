@@ -73,7 +73,7 @@ class WEASEL(BaseClassifier):
         Sets the feature selections strategy to be used. *Chi2* reduces the number
         of words significantly and is thus much faster (preferred). If set to chi2,
          p_threshold is applied.  *Random* also reduces the number significantly.
-         *None* applies not feature selectiona and yields large bag of words,
+         *None* applies not feature selection and yields large bag of words,
          e.g. much memory may be needed.
     support_probabilities: bool, default: False
         If set to False, a RidgeClassifierCV will be trained, which has higher accuracy
